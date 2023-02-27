@@ -1,0 +1,211 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <script src="https://kit.fontawesome.com/c0a4fd738d.js" crossorigin="anonymous"></script>
+
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <style>
+       /* header start*/
+        body{
+            margin: 0;
+            padding: 0;
+            box-sizing: border-box;
+            background-color: #ddd;
+        }
+        header{
+            width: 100%;
+            background-color: #363636;
+            color: #eee;
+            
+            
+        }
+        .logo{
+            color: #eee;
+            font-family:Arial, Helvetica, sans-serif;
+            font-size: 40px;
+            padding: auto;
+            padding-top: 5px;
+            font-weight: bold;
+            text-align: center;
+            text-transform: uppercase;
+           
+        
+            
+        }
+        .list{
+            display: flex;
+            justify-content: center;
+            align-items: center;
+            
+        }
+        .list ul{
+            list-style: none;
+        } 
+        
+        .list ul li{
+           background-color: #918e8e;
+            border: 1px solid #777676;
+            width: 200px;
+            height: 50px;
+            text-align: center;
+            float: left;
+            line-height: 50px;
+        } 
+        .list ul li ul{
+            display: none;
+        } 
+        .list ul li:hover > ul{
+            display: block;
+            padding-right: 100px ;
+            margin-left: -41.5px;
+
+        } 
+        .list ul li a{
+            text-decoration: none;
+            color: #fff; 
+        }
+        .list ul li:hover{
+            background-color: rgb(99, 98, 98);
+        }
+        /* header end*/
+
+        .hudai{
+            background-color: #e6e4e4;
+            margin: auto;
+            width: 600px;
+        }
+  /* Form star*/
+  .form1{
+    background-color: crimson;
+    height:fit-content;
+    width: fit-content;
+    color: #ffffff;
+    font-size: 40px;
+    text-align: center;
+    margin: 30px auto;
+    padding: 20px 80px;
+    border-radius: 5%;
+    box-shadow: 0 4px 8px 0 rgb(0, 0, 0, 0.6),
+     0 4px 8px 0 rgb(0, 0, 0,0.2);
+  }
+  .form1 input{
+    padding: 7px 50px;
+    border-color: rgb(67, 73, 56);
+    border-radius: 50px;
+  }
+  .form1 .btn{
+    font-weight: bold;
+    
+  }
+  
+
+  /* Form end*/
+
+
+        /* Footer start*/
+
+        footer{
+            
+            
+            text-align: center;
+            background-color: #363636;
+            color: #ddd;
+            width: 100%;
+            height: 190px;
+            
+            position: absolute;
+            bottom: 0;
+            
+            
+        }
+        .txt p{
+            width: 700px ;
+            margin: auto;
+            margin-top: -20px;
+            padding: 2px;
+        }
+        .icon i{
+            font-size: 35px;
+            margin-left: 20px;
+            margin-top: 10px;
+        }
+        .foot h3{
+            background-color: #777676;
+            padding: 10px;
+            margin-top: 10px;
+            
+        }
+
+        /* Footer end*/
+
+    </style>
+</head>
+<body>
+     <!--header-->
+    <header>
+        <div class="logo">AB Rahim Ahmed</div> 
+        <div class="list">
+            <ul>
+                <li><a href="#">Home</a></li>
+                <li><a href="#">Certificate</a></li>
+                <li><a href="#">Services</a> 
+                    <ul>
+                        <li>Programing</li>
+                        <li>Web devlopment </li>
+                        <li>Android Development</li>
+                    </ul>
+                </li>
+                <li><a href="#">About US</a></li>
+            </ul>
+        </div>
+    </header>
+        <!--Form-->
+        <div class="form1">
+            <form action="#" method="post">
+               
+                    
+                    <label for="fname">Email:</label>
+                    <br>
+                    <input type="text" name="email" id="email"   placeholder="abc123@gmail.com"> <br> 
+        
+                
+                   
+        
+                    <label for="pass">Password:</label><br>
+                    <input type="password" name="pass" id="pass" placeholder="-------------------"> <br>
+                     
+                    <input type="reset" value="Reset" class="btn">
+                    <input type="submit" value="Log in" class="btn">
+                   
+        
+                
+        
+                
+        </div>
+   
+      
+     <!--Footer-->
+
+     <footer>
+        <div class="name">
+            <h1> Noob Coder </h1>
+        </div>
+        <div class="txt"> <p>Lorem ipsum dolor, sit amet consectetur adipisicing elit. Ipsa laborum, atque assumenda dolore sapiente iure doloribus dolor at facilis laboriosam laudantium accusamus aliquam expedita iste exercitationem facere debitis doloremque inventore!</p>
+
+        </div>
+        <div class="icon">
+            <i class="fa-brands fa-facebook"></i>
+            <i class="fa-brands fa-twitter"></i>
+            <i class="fa-brands fa-github"></i>
+            <i class="fa-brands fa-linkedin"></i>
+            <i class="fa-brands fa-youtube"></i>
+
+        </div>
+        <div class="foot"> <h3> Copyright@ 2023 by_AB.Rahim </h3></div>
+
+     </footer>
+</body>
+</html>
